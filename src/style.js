@@ -29,7 +29,7 @@ display:block;
 
 export const BoxConteudoDropMenu = styled.ul`
 list-style: none;
-display: ${this.props.visivel};
+display: ${props => props.visivel};
 `;
 
 export const SubBoxConteudoDropMenu = styled.li`
